@@ -13,14 +13,17 @@
     "@nuxt/content": "^3.8.0",
     "@nuxt/eslint": "^1.10.0",
     "@nuxt/fonts": "^0.11.4",
-    "@nuxt/image": "^1.11.0",
+    "@primevue/themes": "^4.4.1",
     "better-sqlite3": "^12.4.1",
     "eslint": "^9.39.0",
     "nuxt": "^4.2.0",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.4.1",
     "vue": "^3.5.22",
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
+    "@nuxt/image": "^2.0.0",
     "@nuxtjs/tailwindcss": "^6.14.0"
   }
 }
