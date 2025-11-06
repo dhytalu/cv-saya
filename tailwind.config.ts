@@ -11,10 +11,13 @@ export default <Config>{
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['ui-sans-serif', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
+      },
       colors: {
         brand: {
-          DEFAULT: '#6366F1',
-          dark: '#4F46E5',
+          DEFAULT: '#ed003f',
+          dark: '#ed003f',
         },
       },
     },

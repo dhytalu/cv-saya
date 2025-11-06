@@ -31,14 +31,14 @@ const nav = [
 <template>
   <header class="fixed inset-x-0 backdrop-blur bg-white/50 dark:bg-gray-900/50 top-0 z-50 bg-transparent">
     <div class="mx-auto max-w-7xl px-6 h-14 flex items-center justify-between">
-      <a href="#hero" class="font-semibold text-gray-900 dark:text-white tracking-tight text-2xl">Kadican</a>
+      <NuxtLink to="/" class="font-semibold text-gray-900 dark:text-white tracking-tight text-2xl">Kadican</NuxtLink>
 
       <nav class="hidden sm:flex items-center gap-6 text-sm">
         <a
           v-for="item in nav"
           :key="item.href"
           :href="item.href"
-          class="text-gray-600 dark:text-gray-300 hover:text-brand"
+          class="text-gray-600 dark:text-gray-300 hover:text-rose-600"
         >
           {{ item.label }}
         </a>

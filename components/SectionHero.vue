@@ -4,11 +4,10 @@
     <div class="mx-auto max-w-7xl px-6 py-20 lg:py-28 grid lg:grid-cols-2 gap-12 items-center">
       <div>
         <h1 class="text-4xl lg:text-6xl font-bold tracking-tight text-gray-900 dark:text-white">
-          Transforming Through <span class="text-brand">Change</span>
+          Building Beauty Through Lines <span class="text-rose-600">of Code.</span>
         </h1>
         <p class="mt-6 text-lg text-gray-600 dark:text-gray-300">
-          Membangun jembatan antara desain, kode, dan cerita. Saya berbagi proses belajar
-          dan membangun antarmuka modern dengan fokus pada UX, aksesibilitas, dan performa.
+          Menghadirkan solusi web yang efisien dan modern untuk mendukung transformasi digital UMKM, sekolah, desa, dan perusahaan. Saya berfokus pada desain antarmuka yang intuitif, performa tinggi, dan ramah pengguna.
         </p>
         <div class="mt-8 flex gap-4">
           <Button label="Lihat Proyek" icon="pi pi-briefcase" class="p-button-raised p-button-primary" />
