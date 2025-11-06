@@ -29,7 +29,7 @@ const nav = [
 </script>
 
 <template>
-  <header class="fixed inset-x-0 backdrop-blur bg-white/50 dark:bg-gray-900/50 top-0 z-50 bg-transparent">
+  <header class="fixed inset-x-0 backdrop-blur bg-white/500 dark:bg-gray-900/50 top-0 z-50 bg-transparent">
     <div class="mx-auto max-w-7xl px-6 h-14 flex items-center justify-between">
       <NuxtLink to="/" class="font-semibold text-gray-900 dark:text-white tracking-tight text-2xl">Kadican</NuxtLink>
 
