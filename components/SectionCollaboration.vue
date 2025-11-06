@@ -1,7 +1,7 @@
 <template>
-  <section class="bg-white">
+  <section id="collaboration" class="bg-white dark:bg-gray-900">
     <div class="mx-auto max-w-7xl px-6 py-16">
-      <h2 class="text-2xl font-semibold text-gray-900">Let's work together</h2>
+      <h2 class="text-2xl font-semibold text-gray-900 dark:text-white">Let's work together</h2>
       <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <Card>
           <template #title>Mentoring & code reviews</template>

@@ -1,12 +1,12 @@
 <template>
-  <section class="relative overflow-hidden bg-white">
+  <section id="hero" class="relative overflow-hidden bg-white dark:bg-gray-900">
     <div class="absolute -top-24 -left-24 w-80 h-80 bg-brand/20 blur-3xl rounded-full"></div>
     <div class="mx-auto max-w-7xl px-6 py-20 lg:py-28 grid lg:grid-cols-2 gap-12 items-center">
       <div>
-        <h1 class="text-4xl lg:text-6xl font-bold tracking-tight text-gray-900">
+        <h1 class="text-4xl lg:text-6xl font-bold tracking-tight text-gray-900 dark:text-white">
           Transforming Through <span class="text-brand">Change</span>
         </h1>
-        <p class="mt-6 text-lg text-gray-600">
+        <p class="mt-6 text-lg text-gray-600 dark:text-gray-300">
           Membangun jembatan antara desain, kode, dan cerita. Saya berbagi proses belajar
           dan membangun antarmuka modern dengan fokus pada UX, aksesibilitas, dan performa.
         </p>

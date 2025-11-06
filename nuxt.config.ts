@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     fileURLToPath(new URL('./assets/css/tailwind.css', import.meta.url)),
     'primeicons/primeicons.css',
   ],
+  components: [{ path: '~/components' }],
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxt/image',

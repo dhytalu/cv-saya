@@ -8,9 +8,9 @@ const chapters = [
 </script>
 
 <template>
-  <section class="bg-gray-50">
+  <section id="timeline" class="bg-gray-50 dark:bg-gray-900">
     <div class="mx-auto max-w-7xl px-6 py-16">
-      <h2 class="text-2xl font-semibold text-gray-900">The Plot Twists</h2>
+      <h2 class="text-2xl font-semibold text-gray-900 dark:text-white">The Plot Twists</h2>
       <div class="mt-8 relative">
         <div class="absolute left-4 top-0 bottom-0 w-px bg-gray-200"></div>
         <div class="space-y-6">
@@ -21,7 +21,7 @@ const chapters = [
             <Card>
               <template #title>{{ c.title }}</template>
               <template #content>
-                <p class="text-sm text-gray-600">{{ c.period }} — {{ c.subtitle }}</p>
+                <p class="text-sm text-gray-600 dark:text-gray-300">{{ c.period }} — {{ c.subtitle }}</p>
               </template>
             </Card>
           </div>

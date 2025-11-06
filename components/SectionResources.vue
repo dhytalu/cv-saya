@@ -1,7 +1,7 @@
 <template>
-  <section class="bg-gray-50">
+  <section id="resources" class="bg-gray-50 dark:bg-gray-900">
     <div class="mx-auto max-w-7xl px-6 py-16">
-      <h2 class="text-2xl font-semibold text-gray-900">Resources</h2>
+      <h2 class="text-2xl font-semibold text-gray-900 dark:text-white">Resources</h2>
       <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <Card>
           <template #title>Slicing Responsive Personal Website</template>
